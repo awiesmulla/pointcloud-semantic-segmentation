@@ -26,20 +26,9 @@ Visualization results of SqueezeSegV3:
     <img src="./figure/sample4.gif" width="425" height="450" />
 </p>
 
-
-For more details, please refer to paper: [SqueezeSegV3](https://arxiv.org/abs/2004.01803). The work is a follow-up work to [SqueezeSeg](https://github.com/BichenWuUCB/SqueezeSeg), [SqueezeSegV2](https://github.com/xuanyuzhou98/SqueezeSegV2) and [LATTE](https://github.com/bernwang/latte).
-
-
 ## Installation
 
-The instructions are tested on Ubuntu 16.04 with python 3.6 and Pytorch 1.1.0 with GPU support.
-
-* Clone the SqueezeSeg3 repository:
-
-
-```shell
-git clone https://github.com/chenfengxu714/SqueezeSegV3.git
-```
+The instructions are tested on Ubuntu 20.04 with python 3.8 and Pytorch 1.1.0 with GPU support.
 
 * Use pip to install required Python packages:
 
@@ -81,7 +70,6 @@ To visualize the prediction for the sequence point cloud:
 python visualize.py -d /path/to/dataset/ -p /path/to/predictions/ -s SQ_Number
 ```
 
-
 ## Training
 
 ```shell
@@ -115,6 +103,3 @@ python evaluate_iou.py -d /path/to/dataset -p /path/to/predictions/ --split vali
 
 ## Credits
 We referred to RangeNet++ ([Paper](http://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/milioto2019iros.pdf), [Code](https://github.com/PRBonn/lidar-bonnetal)) during our development. We thank the authors of RangeNet++ for open-sourcing their code.
-
-
-
