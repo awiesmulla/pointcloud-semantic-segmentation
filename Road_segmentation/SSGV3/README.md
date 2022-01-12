@@ -94,7 +94,7 @@ We can monitor the training process using tensorboard.
 tensorboard --logdir /file_path/
 ```
 
-Changes are made to labels of original algorithm to accomodate the requirements. The mentioned 18 classes are labelled as on-road and off-road classes only.
+Changes are made to original labels in order to accomodate the requirements. The mentioned 18 classes are labelled as on-road and off-road classes only.
 
 ## Evaluation
 
