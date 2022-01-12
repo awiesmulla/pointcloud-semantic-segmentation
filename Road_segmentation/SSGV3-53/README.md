@@ -1,3 +1,3 @@
-# SSGV3-21
+# SSGV3-53
 
-Current directory the parameters of pre-trained model, SSGV3-21
+Current directory the parameters of pre-trained model, SSGV3-53
