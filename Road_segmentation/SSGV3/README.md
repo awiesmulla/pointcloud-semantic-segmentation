@@ -1,6 +1,6 @@
 # SqueezeSegV3: Spatially-Adaptive Convolution for Efficient Point-Cloud Segmentation
 
-This repository contains a Pytorch implementation of SqueezeSegV3, a state-of-the-art model for LiDAR segmentation. The framework of our SqueezeSegV3 can be found below:
+This repository contains a Pytorch implementation of modified SqueezeSegV3, a state-of-the-art model for LiDAR segmentation. The framework of our algorithm can be found below:
 
 <p align="center">
     <img src="./figure/framework.png"/ width="750">
@@ -104,4 +104,4 @@ python evaluate_iou.py -d /path/to/dataset -p /path/to/predictions/ --split vali
 
 
 ## Credits
-We referred to RangeNet++ ([Paper](http://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/milioto2019iros.pdf), [Code](https://github.com/PRBonn/lidar-bonnetal)) during our development. We thank the authors of RangeNet++ for open-sourcing their code.
+We referred to RangeNet++ ([Paper](http://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/milioto2019iros.pdf), [Code](https://github.com/PRBonn/lidar-bonnetal)) and SqueezeSegV3 during our development. We thank the authors for open-sourcing their code.
